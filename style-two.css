@@ -10,18 +10,14 @@ html, body, main, .landing, .projects {
 }
 
 a:link, a:visited {
-    color: #fcd734;
+    color: black;
     text-decoration: none;
-    text-decoration-color: #c5a600;
+    text-decoration-color: black;
 }
 
 a:hover {
-    color: #c5a600;
+    color: blue;
     text-decoration: underline;
-}
-
-a i:hover {
-    border: 1px solid #c5a600;
 }
 
 nav {
@@ -65,8 +61,8 @@ nav {
 
 .burger-nav .head {
     height: 20%;
-    background-color: #003d32;
-    color: #fcd734;
+    background-color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,8 +73,8 @@ nav {
 }
 
 nav, .bottom-nav {
-    background-color: #003d32;
-    color: #fcd734;
+    background-color: white;
+    color: black;
     box-shadow: 0 0 1em -4px rgba(0, 0, 0, 0.5), 0 8px 1em -6px rgba(0, 0, 0, 0.5);
     margin: 0
 }
@@ -99,8 +95,8 @@ nav, .bottom-nav {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #00685b;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .landing .header {
@@ -125,11 +121,6 @@ p {
 .italy-image {
     width: 100%;
     height: 50%;
-}
-
-.italy-image div {
-    width: 100%;
-    height: 100%;
     background-image: url(images/italy.jpg);
     background-position: center;
     background-size: cover;
@@ -149,13 +140,6 @@ p {
 
 .picture {
     height: 60%;
-    width: 100%;
-    
-}
-
-.picture div {
-    width: 100%;
-    height: 100%;
     background-image: url(images/sterling-colorado.jpg);
     background-size: cover;
     background-position: center;
@@ -192,34 +176,29 @@ h3 {
 }
 
 .about {
-    background-color: #ffff6b;
+    background-color: white;
     padding: .5em;
     box-shadow: 0 0 1em -4px rgba(0, 0, 0, 0.5), 0 8px 1em -6px rgba(0, 0, 0, 0.5);
 }
 
 .more-info {
     float: right;
-    border: none;
-    background-color: #00685b;
-    color: white;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
     box-shadow: 0 0 1em -4px rgba(0, 0, 0, 0.5), 0 8px 1em -6px rgba(0, 0, 0, 0.5);
 }
 
 .more-info:focus {
-    background-color: #003d32;
+    background-color: rgba(128, 128, 128, 0.5);
     box-shadow: 0 0 1em -4px rgba(0, 0, 0, 0.75), 0 8px 1em -6px rgba(0, 0, 0, 0.75);
     border: none;
-}
-
-.fa-info-circle {
-    font-size: 2em;
-    color: #439688;
 }
 
 .connect {
     margin-bottom: 0;
     padding-top: 1em;
-    background-color: #439688;
+    background-color: white;
 }
 
 .connect-info {
@@ -232,15 +211,15 @@ h3 {
 }
 
 .about a:link, .about a:visited {
-    color: #003d32;
+    color: black;
+}
+
+.about a:hover {
+    text-decoration: underline;
 }
 
 .medium {
     display: none;
-}
-
-.large {
-    display: none
 }
 
 .bottom-nav {
@@ -248,41 +227,8 @@ h3 {
 }
 
 @media screen and (min-width: 500px) {
-    .italy-image div {
-        width: 80%;
-        margin: 0 auto;
-        box-shadow: 0 0 1em -4px rgba(0, 0, 0, 0.75), 0 8px 1em -6px rgba(0, 0, 0, 0.75);
-    }
 
-    .nav-bar-top {
-        padding: 1em 2em;
-    }
-    .blurb {
-        margin: 0 1em;
-    }
-
-    .about-me {
-        margin: 2em;
-    }
-
-    .quaff-quizz {
-        width: 80%;
-    }
-
-    .picture {
-        margin-bottom: 1em;
-    }
-    .picture div {
-        width: 80%;
-        margin: 0 auto;
-        box-shadow: 0 0 1em -4px rgba(0, 0, 0, 0.75), 0 8px 1em -6px rgba(0, 0, 0, 0.75);
-    }
-
-}
-
-@media screen and (min-width: 900px) {
-    
-    .large {
+    .medium {
         display: unset;
     }
 
@@ -361,6 +307,10 @@ h3 {
         margin: 3em auto;
     }
 
+    .small, i.small {
+        display: none;
+    }
+
     .quaff-quizz {
         background-image: url(images/quaff-quiz-desktop.png);
     }
@@ -398,10 +348,6 @@ h3 {
     .connect-info header {
         font-size: 80px;
         color: #fcd734;
-    }
-
-    .small, i.small, .medium {
-        display: none;
     }
 
 }
