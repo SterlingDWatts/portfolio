@@ -4,7 +4,6 @@ function handleHamburgerClick() {
 
 function hideSideMenu() {
     $('.burger-nav li, .burger-nav a, main').on('click', e => $('.burger-nav').addClass('hidden'));
-
 }
 
 function moreInfo() {
