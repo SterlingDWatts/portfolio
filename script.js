@@ -3,12 +3,21 @@ function handleHamburgerClick() {
 }
 
 function hideSideMenu() {
-    $('.burger-nav li, .burger-nav a').on('click', e => $('.burger-nav').addClass('hidden'));
+    $('.burger-nav li, .burger-nav a, main').on('click', e => $('.burger-nav').addClass('hidden'));
+
 }
 
 function moreInfo() {
-    $('.more-info').on('click', function(event) {
+    const info = $('.more-info');
+
+    info.on('click', function(event) {
         $('.about span').toggleClass('hidden');
+
+        if (info.text() === 'more info') {
+            info.text('less info');
+        } else {
+            info.text('more info');
+        };
     })
 }
 
