@@ -1,3 +1,16 @@
+function hideAndShowNavBar() {
+    let prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        let currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById('navbar').style.top = '0';
+        } else {
+            document.getElementById('navbar').style.top = '-3em';
+        }
+        prevScrollpos = currentScrollPos;
+    }
+}
+
 function handleHamburgerClick() {
     $('.hamburger').on('click', e => $('.burger-nav').removeClass('hidden'));
 }
@@ -21,6 +34,8 @@ function moreInfo() {
 }
 
 function handlePage() {
+
+    hideAndShowNavBar()
     handleHamburgerClick();
     hideSideMenu();
     moreInfo();
