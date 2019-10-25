@@ -19,9 +19,9 @@ This page was made with HTML/CSS/JavaScript(jQuery)
 ![Quaff Quizz Landing Page](https://sterlingdwatts.github.io/portfolio_v_2/images/quaff-quiz-desktop.png)  
   
 **[Game Hub](https://sterlingdwatts.github.io/game_hub)** | **[Repo](https://github.com/SterlingDWatts/game_hub)**  
-The hottest new way to search for board games!  
+The hottest new way to discover new board games!  
   
-Game Hub allows users to search for a specific board game or select from an ever updating list of the Hottest Games! Game Hub has detailed information about each game and has links for families the game belongs to so you can find similar titles. On each game's info page, there are also links to any expansions that exist for the game, so that if you love the game you can keep the fun going!  
+Game Hub allows users to search for a specific board game or select from an always updating list of the hottest trending games! Game Hub has detailed information about each game and has links for families the game belongs to so you can find similar games. On each game's info page, there are also links to any expansions that exist for the game, so that if you love the game you can keep the fun going! 
   
 This page was made with HTML/CSS/JavaScript(jQuery)/XML/Board Game Geek API  
 ![Game Hub Landing Page](https://sterlingdwatts.github.io/portfolio_v_2/images/game-hub-desktop-landing-page.png)  
