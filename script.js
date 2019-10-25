@@ -1,13 +1,13 @@
 function hideAndShowNavBar() {
-    let prevScrollpos = window.pageYOffset;
+    let prevScrollPos = window.pageYOffset;
     window.onscroll = function() {
         let currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
+        if (prevScrollPos > currentScrollPos) {
             document.getElementById('navbar').style.top = '0';
         } else {
             document.getElementById('navbar').style.top = '-3em';
         }
-        prevScrollpos = currentScrollPos;
+        prevScrollPos = currentScrollPos;
     }
 }
 
