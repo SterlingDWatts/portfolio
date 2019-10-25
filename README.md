@@ -1,6 +1,5 @@
 # Sterling Watts # 
-#### Full Stack Web Developer ####
-### Portfolio ###
+**Full Stack Web Developer**
 
 I am a passionate Full Stack Web Developer that enjoys making beautiful and intuitive websites as well as analyzing the data that I can get from them!
 
