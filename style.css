@@ -181,10 +181,17 @@ p {
 }
 
 .quaff-quizz {
+    background-image: url(images/quaff-quiz-mobile.png);
+}
+
+.game-hub {
+    background-image: url(images/game-hub-mobile-landing-page.png);
+}
+
+.project {
     height: 90%;
     width: 90%;
     margin: 2em auto 0;
-    background-image: url(images/quaff-quiz-mobile.png);
     background-size: cover;
     background-position: top;
     box-shadow: 0 0 1em -4px rgba(0, 0, 0, 0.5), 0 8px 1em -6px rgba(0, 0, 0, 0.5);
@@ -273,7 +280,7 @@ h3 {
         margin: 2em;
     }
 
-    .quaff-quizz {
+    .project {
         width: 80%;
     }
 
@@ -371,6 +378,10 @@ h3 {
 
     .quaff-quizz {
         background-image: url(images/quaff-quiz-desktop.png);
+    }
+
+    .game-hub {
+        background-image: url(images/game-hub-desktop-landing-page.png)
     }
 
     .connect {
