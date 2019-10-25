@@ -20,15 +20,13 @@ function hideSideMenu() {
 }
 
 function moreInfo() {
-    const info = $('.more-info');
+    $('.about').on('click', '.more-info', function(event) {
+        $($(this).attr('data-app')).toggleClass('hidden');
 
-    info.on('click', function(event) {
-        $('.about span').toggleClass('hidden');
-
-        if (info.text() === 'more info') {
-            info.text('less info');
+        if ($(this).text() === 'more info') {
+            $(this).text('less info');
         } else {
-            info.text('more info');
+            $(this).text('more info');
         };
     })
 }
