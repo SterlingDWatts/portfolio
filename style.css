@@ -247,7 +247,12 @@ h3 {
 }
 
 .about a:link, .about a:visited {
-    color: #003d32;
+    color: #00685b;
+    text-decoration: underline;
+}
+
+.about a:hover {
+    color: #439688;
 }
 
 .medium {
