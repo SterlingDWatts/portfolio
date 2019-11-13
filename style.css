@@ -210,6 +210,7 @@ h3 {
     background-color: #ffff6b;
     padding: .5em;
     box-shadow: 0 0 1em -4px rgba(0, 0, 0, 0.5), 0 8px 1em -6px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 .more-info {
@@ -218,6 +219,7 @@ h3 {
     background-color: #00685b;
     color: white;
     box-shadow: 0 0 1em -4px rgba(0, 0, 0, 0.5), 0 8px 1em -6px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 .more-info:focus {
