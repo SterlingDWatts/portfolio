@@ -11,7 +11,7 @@ Coding isn't my only passion. My board game shelf is overflowing with games, my 
 
 ## Projects ##
 
-**[Quaff Quizz](https://sterlingdwatts.github.io/quaff_quizz_2)** | **[Repo](https://github.com/SterlingDWatts/quaff_quizz_2)**  
+**[Quaff Quizz](https://sterlingdwatts.github.io/quaff_quizz)** | **[Repo](https://github.com/SterlingDWatts/quaff_quizz)**  
 A fun wine quiz web app with over 20 questions ranging over 4 topics. Each time you take the quiz, you will see a different combination of answers in a different order.  
 If you need to focus on a particular topic, you can choose from popular subjects instead!  
   
@@ -31,7 +31,7 @@ This page was made with HTML/CSS/JavaScript(jQuery)/XML/Board Game Geek API
 * JavaScript/jQuery
 
 ## Portfolio ##
-[Live Portfolio](https://sterlingdwatts.github.io/portfolio_v_2/)
+[Live Portfolio](https://sterlingdwatts.github.io/portfolio/)
 
 ## Connect ##
 * Cell: 858.609.9463
