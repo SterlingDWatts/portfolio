@@ -3,7 +3,7 @@
 
 I am a passionate Full Stack Web Developer that enjoys making beautiful and intuitive websites as well as analyzing the data that I can get from them!
 
-## About Me ##
+## About Me ## 
 
 I love to code! I have studied Data Analysis on DataQuest and am taking the Full Stack Web Developer bootcamp with Bloc. What I appreciate most about coding is being able to make something that people can use and will enhance their lives. I'm a problem solver and a technophile which I want to use to enrich peoples lives. When I am not building the front of a website, I love to geek out on the data I can get from it and how I can use it to improve the user experience.
 
