@@ -180,6 +180,10 @@ p {
     font-weight: bold;
 }
 
+.sterling-blog {
+    background-image: url(images/sterling-blog-mobile.png)
+}
+
 .quaff-quizz {
     background-image: url(images/quaff-quiz-mobile.png);
 }
@@ -381,6 +385,10 @@ h3 {
     .about-me {
         max-width: 683px;
         margin: 3em auto;
+    }
+
+    .sterling-blog {
+        background-image: url(images/sterling-blog-desktop.png);
     }
 
     .quaff-quizz {
