@@ -11,11 +11,17 @@ Coding isn't my only passion. My board game shelf is overflowing with games, my 
 
 ## Projects ##
 
+**[Sterling | Blog](https://sterling-blog-app.now.sh/)** | **[Client Repo](https://github.com/SterlingDWatts/sterling-blog)** | **[Server Repo](https://github.com/SterlingDWatts/sterling-blog-server)**  
+A blog content management system. Users can scroll through and read existing blogs. People logged in can create new blogs as well as edit they have created using an intuitive "what you see is what you get" editor. 
+  
+This page was made with HTML/CSS/JavaScript/jQuery  
+![Quaff Quizz Landing Page](https://sterlingdwatts.github.io/portfolio_v_2/images/quaff-quiz-desktop.png)  
+
 **[Quaff Quizz](https://sterlingdwatts.github.io/quaff_quizz)** | **[Repo](https://github.com/SterlingDWatts/quaff_quizz)**  
 A fun wine quiz web app with over 20 questions ranging over 4 topics. Each time you take the quiz, you will see a different combination of answers in a different order.  
 If you need to focus on a particular topic, you can choose from popular subjects instead!  
   
-This page was made with HTML/CSS/JavaScript(jQuery)  
+This site was made with HTML/CSS/JavaScript/React/Node.js/PostgreSQL/Heroku/Froala WYSIWYG Editor 
 ![Quaff Quizz Landing Page](https://sterlingdwatts.github.io/portfolio_v_2/images/quaff-quiz-desktop.png)  
   
 **[Game Hub](https://sterlingdwatts.github.io/game_hub)** | **[Repo](https://github.com/SterlingDWatts/game_hub)**  
